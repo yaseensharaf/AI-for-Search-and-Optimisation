@@ -1,0 +1,37 @@
+{
+  "problem_sizes": [
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "evaluation_budget": 100000,
+  "city_selection": "First n rows in the original dataset order",
+  "distance_measure": "Unrounded Euclidean distance",
+  "ILS": {
+    "local_search": "First-improvement 2-opt",
+    "perturbation": "Two disjoint swaps, starting city fixed",
+    "acceptance": "Strict improvement"
+  },
+  "GA": {
+    "population_size": 50,
+    "mutation_rate": 0.2,
+    "tournament_size": 3
+  },
+  "python_version": "3.11.2",
+  "numpy_version": "2.4.6",
+  "pandas_version": "2.2.3"
+}

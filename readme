@@ -1,0 +1,40 @@
+# Comparative Optimisation of the Travelling Salesman Problem Using Iterated Local Search and Genetic Algorithms
+
+**Module:** AI for Search and Optimisation
+**Author:** Yaseen Sharaf
+
+This notebook implements and compares **Iterated Local Search (ILS)** and a
+**Genetic Algorithm (GA)** for solving the Travelling Salesman Problem (TSP)
+on a 50-city dataset. Both algorithms are evaluated across increasing
+problem sizes on solution quality, convergence, computational efficiency
+and robustness, and the difference between them is checked with formal
+statistical tests rather than judged by eye.
+
+---
+
+## 1. Research Question
+
+How effectively do Iterated Local Search and Genetic Algorithms solve the
+Travelling Salesman Problem as problem size increases from 10 to 50 cities,
+considering solution quality, convergence, computational efficiency and
+robustness?
+
+---
+
+## 2. Requirements
+
+- Python 3.11+
+- Jupyter Notebook
+- Required libraries:
+  - `numpy`
+  - `pandas`
+  - `matplotlib`
+  - `scipy`
+
+Install everything with:
+
+```bash
+pip install numpy pandas matplotlib scipy
+```
+
+---

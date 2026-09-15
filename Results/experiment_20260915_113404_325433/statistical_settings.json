@@ -1,0 +1,13 @@
+{
+  "outcome": "Final best route distance",
+  "alternative": "Two-sided",
+  "alpha": 0.05,
+  "test_decimal_places": 9,
+  "multiple_comparison_correction": "Holm",
+  "planned_comparisons": 15,
+  "mann_whitney_method": "Asymptotic with tie correction",
+  "paired_permutation": "Exact within-seed label swaps",
+  "undefined_welch": "Both samples have zero variance",
+  "numpy_version": "2.4.6",
+  "scipy_version": "1.16.3"
+}
